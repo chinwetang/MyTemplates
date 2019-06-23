@@ -1,6 +1,6 @@
 package ${componentPackageName}
 
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageCallBack
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack
 import android.arch.lifecycle.LifecycleOwner
 import dagger.BindsInstance
 import dagger.Component
@@ -19,7 +19,7 @@ import ${ativityPackageName}.${pageName}Activity
 <#elseif needFragment>
 import com.jess.arms.di.scope.FragmentScope
 import ${fragmentPackageName}.${pageName}Fragment
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageCallBack
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack
 </#if>
 
 <#if needActivity && needFragment>

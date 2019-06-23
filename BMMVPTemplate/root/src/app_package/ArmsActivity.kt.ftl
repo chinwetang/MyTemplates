@@ -2,8 +2,8 @@ package ${ativityPackageName}
 
 import android.content.Context
 import cn.com.bluemoon.middleware.base.BaseMultiViewActivity
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageImpl
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageCallBack
+import ${pageTemplatePath}.${pageTemplateName}PageImpl
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack
 
 import com.jess.arms.di.component.AppComponent
 import ${componentPackageName}.Dagger${pageName}Component

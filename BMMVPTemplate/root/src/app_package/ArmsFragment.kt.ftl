@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.view.View
 
 import cn.com.bluemoon.middleware.base.BaseMultiViewFragment
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageImpl
-import cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.${pageTemplateName}.${pageTemplateName}PageCallBack
+import ${pageTemplatePath}.${pageTemplateName}PageImpl
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack
 
 import com.jess.arms.di.component.AppComponent
 import ${componentPackageName}.Dagger${pageName}Component

@@ -12,8 +12,8 @@ import com.jess.arms.di.component.AppComponent;
 import ${componentPackageName}.Dagger${pageName}Component;
 import ${contractPackageName}.${pageName}Contract;
 import ${presenterPackageName}.${pageName}Presenter;
-import cn.com.bluemoon.middleware.base.pageimpl.${pageTemplateName}.${pageTemplateName}PageImpl;
-import cn.com.bluemoon.middleware.base.pageimpl.${pageTemplateName}.${pageTemplateName}PageCallBack;
+import ${pageTemplatePath}.${pageTemplateName}PageImpl;
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack;
 
 import ${packageName}.R;
 

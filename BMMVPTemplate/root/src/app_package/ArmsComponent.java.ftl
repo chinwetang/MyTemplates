@@ -7,7 +7,7 @@ import com.jess.arms.di.component.AppComponent;
 
 import ${moudlePackageName}.${pageName}Module;
 import ${contractPackageName}.${pageName}Contract;
-import cn.com.bluemoon.middleware.base.pageimpl.${pageTemplateName}.${pageTemplateName}PageCallBack;
+import ${pageTemplatePath}.${pageTemplateName}PageCallBack;
 
 <#if needActivity && needFragment>
 import com.jess.arms.di.scope.ActivityScope;
