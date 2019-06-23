@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="5"
+    name="Page UI Template"
+    minApi="7"
+    minBuildApi="14"
+    description="">
+
+    <category value="Other" />
+    <formfactor value="Mobile" />
+
+    <!-- input data -->
+    
+
+    <parameter
+        id="pageName"
+        name="Page Template Name"
+        type="string"
+	constraints="unique|nonempty"
+        default="Sample"
+        help="" />
+
+    <parameter 
+	id="packageName" 
+	name="Root Package Name" 
+	help="" 
+	default="com.mycompany.myapp" 
+	constraints="package" 
+	type="string"/>
+
+    <!-- 128x128 thumbnails relative to com.puke.template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_cover.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
