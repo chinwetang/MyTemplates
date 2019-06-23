@@ -2,8 +2,8 @@
 <template
     format="5"
     revision="2"
-    name="BM Arms Component"
-    description="Creates a new Arms Component.">
+    name="BM Component"
+    description="Creates a new BM Component.">
 
     <category value="Application" />
 
