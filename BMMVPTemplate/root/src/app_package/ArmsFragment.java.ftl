@@ -17,9 +17,7 @@ import ${pageTemplatePath}.${pageTemplateName}PageCallBack;
 
 import static com.jess.arms.utils.Preconditions.checkNotNull;
 
-<#import "root://activities/BMMVPArmsTemplate/globals.xml.ftl" as gb>
 
-<@gb.fileHeader />
 public class ${pageName}Fragment extends BaseMultiViewFragment<${pageTemplateName}PageImpl,${pageName}Presenter> implements ${pageName}Contract.View{
 
     private static final String TAG=${pageName}Fragment.class.getCanonicalName();

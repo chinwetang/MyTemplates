@@ -20,9 +20,6 @@ import ${packageName}.R;
 
 import static com.jess.arms.utils.Preconditions.checkNotNull;
 
-<#import "root://activities/BMMVPArmsTemplate/globals.xml.ftl" as gb>
-
-<@gb.fileHeader />
 public class ${pageName}Activity extends BaseMultiViewActivity<${pageTemplateName}PageImpl,${pageName}Presenter> implements ${pageName}Contract.View {
 
     private static final String TAG=${pageName}Activity.class.getCanonicalName();

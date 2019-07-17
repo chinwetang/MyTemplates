@@ -17,9 +17,7 @@ import javax.inject.Inject;
 
 import ${contractPackageName}.${pageName}Contract;
 
-<#import "root://activities/BMMVPArmsTemplate/globals.xml.ftl" as gb>
 
-<@gb.fileHeader />
 <#if needActivity && needFragment>
 @ActivityScope
 <#elseif needActivity>
