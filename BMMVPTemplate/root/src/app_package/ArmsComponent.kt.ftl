@@ -19,7 +19,6 @@ import ${ativityPackageName}.${pageName}Activity
 <#elseif needFragment>
 import com.jess.arms.di.scope.FragmentScope
 import ${fragmentPackageName}.${pageName}Fragment
-import ${pageTemplatePath}.${pageTemplateName}PageCallBack
 </#if>
 
 <#if needActivity && needFragment>

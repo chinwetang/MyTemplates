@@ -2,6 +2,7 @@ package ${fragmentPackageName}
 
 import android.os.Bundle
 import android.view.View
+import android.content.Context
 
 import cn.com.bluemoon.middleware.base.BaseMultiViewFragment
 import ${pageTemplatePath}.${pageTemplateName}PageImpl

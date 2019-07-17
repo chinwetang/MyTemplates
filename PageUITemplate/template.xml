@@ -1,33 +1,26 @@
 <?xml version="1.0"?>
-<template
-    format="5"
-    revision="5"
-    name="Page UI Template"
-    minApi="7"
-    minBuildApi="14"
-    description="">
+<template name="Page UI Template" description="" format="5" minApi="7" minBuildApi="14"
+    revision="5">
 
     <category value="Other" />
     <formfactor value="Mobile" />
 
     <!-- input data -->
-    
 
-    <parameter
-        id="pageName"
-        name="Page Template Name"
-        type="string"
-	constraints="unique|nonempty"
-        default="Sample"
-        help="" />
 
-    <parameter 
-	id="packageName" 
-	name="Root Package Name" 
-	help="" 
-	default="com.mycompany.myapp" 
-	constraints="package" 
-	type="string"/>
+    <parameter name="Page Template Name" constraints="unique|nonempty" default="Sample" help=""
+        id="pageName" type="string" />
+
+    <parameter name="Page Template Path" constraints="unique|nonempty" default="cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.Default"
+        help="请填写页面模板路径,如填写:cn.com.bluemoon.middleware.base.pageimpl.DefaultCollection.Default"
+        id="pageTemplatePath"
+        type="string" />
+
+    <parameter name="Page Template Name" constraints="unique|nonempty" default="Default"
+        help="请填写页面模板名,如填写 Default" id="pageTemplateName" type="string" />
+
+    <parameter name="Root Package Name" constraints="package" default="com.mycompany.myapp" help=""
+        id="packageName" type="string" />
 
     <!-- 128x128 thumbnails relative to com.puke.template.xml -->
     <thumbs>

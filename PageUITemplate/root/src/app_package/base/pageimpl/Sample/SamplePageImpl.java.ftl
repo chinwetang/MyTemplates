@@ -5,25 +5,14 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import cn.com.bluemoon.middleware.base.pageimpl.BasePageImpl;
+import javax.inject.Inject;
 
-public class ${pageName}PageImpl extends BasePageImpl<${pageName}PageCallBack> {
+import ${pageTemplatePath}.${pageTemplateName}PageImpl;
+
+public class ${pageName}PageImpl extends ${pageTemplateName}PageImpl<${pageName}PageCallBack>{
+
+    @Inject
     public ${pageName}PageImpl(LifecycleOwner owner, ${pageName}PageCallBack callback) {
         super(owner, callback);
-    }
-
-    @Override
-    public void onBMInitContentView(View contentView) {
-        getCallback().onBMInitContentView(contentView);
-    }
-
-    @Override
-    public int getContentLayout() {
-        return getCallback().getContentLayout();
-    }
-
-    @Override
-    public int getLayout() {
-        return 0;
     }
 }
